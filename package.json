@@ -1,0 +1,29 @@
+{
+  "name": "passport-wechat-oa",
+  "version": "0.0.1",
+  "description": "Passport OAuth Strategy for wechat official account 微信公众号",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mackwan84/passport-wechat-oa.git"
+  },
+  "keywords": [
+    "passport",
+    "wechat",
+    "oauth"
+  ],
+  "author": "Mac Kwan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mackwan84/passport-wechat-oa/issues"
+  },
+  "homepage": "https://github.com/mackwan84/passport-wechat-oa",
+  "dependencies": {
+    "passport-oauth2": "^1.1.2",
+    "uid2": "0.0.3",
+    "wechat-oauth": "^1.1.0"
+  }
+}
